@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="pitest-app" target="1.5" />
+      <module name="pitest-app" target="1.8" />
       <module name="pitestapp" target="1.5" />
     </bytecodeTargetLevel>
   </component>
