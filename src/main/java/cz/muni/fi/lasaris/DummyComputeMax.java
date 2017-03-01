@@ -1,6 +1,6 @@
-package cz.muni.fi.lasaris.max;
+package cz.muni.fi.lasaris;
 
-public class SillyComputeMax {
+public class DummyComputeMax {
 
     public int computeMax(int[] arr) {
         int max = 0;

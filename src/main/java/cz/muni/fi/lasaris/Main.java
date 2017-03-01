@@ -1,7 +1,5 @@
 package cz.muni.fi.lasaris;
 
-import cz.muni.fi.lasaris.max.SillyComputeMax;
-
 import java.util.Arrays;
 import java.util.Random;
 
@@ -11,6 +9,6 @@ public class Main {
 
         System.out.println("Test list: " + Arrays.toString(testArray));
         System.out.println("-------------------------");
-        System.out.println("maximum: " + new SillyComputeMax().computeMax(testArray));
+        System.out.println("maximum: " + new DummyComputeMax().computeMax(testArray));
     }
 }
