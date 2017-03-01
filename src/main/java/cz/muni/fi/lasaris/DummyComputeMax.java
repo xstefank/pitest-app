@@ -3,7 +3,7 @@ package cz.muni.fi.lasaris;
 public class DummyComputeMax {
 
     public int computeMax(int[] arr) {
-        int max = 0;
+        int max = Integer.MIN_VALUE;
         int i = 0;
 
         while (i < arr.length) {
