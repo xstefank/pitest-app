@@ -54,4 +54,12 @@ public class CompureMaxTest {
         result = dummyComputeMax.computeMax(array);
         Assert.assertEquals(4, result);
     }
+
+    @Test
+    public void lastPlaceMaxTest() {
+        int[] array = new int[]{1, 2, 3, 4};
+
+        int result = dummyComputeMax.computeMax(array);
+        Assert.assertEquals(4, result);
+    }
 }
