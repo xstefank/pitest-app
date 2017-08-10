@@ -1,7 +1,5 @@
 package cz.muni.fi.lasaris;
 
-import java.util.Random;
-
 /**
  * @author <a href="mailto:xstefank122@gmail.com">Martin Stefanko</a>
  */
@@ -15,8 +13,8 @@ public class Dummy {
         return "tatooine";
     }
 
-    public String yesOrNo() {
-        return (new Random().nextBoolean()) ? "YES" : "NO";
+    public int plusOne(int num) {
+        return num + 1;
     }
 
     public boolean alwaysLower(int number) {

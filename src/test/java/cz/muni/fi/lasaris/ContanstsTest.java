@@ -22,7 +22,17 @@ public class ContanstsTest {
     }
 
     @Test
+    public void tatooineTest() {
+        Assert.assertEquals("tatooine", dummy.tatooine());
+    }
+
+    @Test
     public void alwaysLowerTest() {
         Assert.assertTrue(dummy.alwaysLower(Integer.MAX_VALUE));
+    }
+
+    @Test
+    public void plusOneTest() {
+        Assert.assertEquals(2, dummy.plusOne(1));
     }
 }
