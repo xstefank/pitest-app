@@ -7,7 +7,7 @@ import org.junit.Test;
 /**
  * @author <a href="mailto:xstefank122@gmail.com">Martin Stefanko</a>
  */
-public class ContanstsTest {
+public class DummyTest {
 
     private Dummy dummy;
 
